@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set Up Buzz Agent Team"
+  short_description: "Plan and safely bootstrap a Buzz agent team"
+  default_prompt: "Use $setup-buzz-agent-team to assess and safely bootstrap my Buzz agent workspace."

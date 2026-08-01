@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.nsec
+credentials*.json
+secrets/
+.hermes/
+data/
+backups/
+target/
+node_modules/

@@ -1,0 +1,22 @@
+display:
+  platforms:
+    buzz:
+      interim_assistant_messages: false
+      tool_progress: off
+
+gateway:
+  platforms:
+    buzz:
+      enabled: true
+      extra:
+        relay_url: "https://REPLACE_WITH_COMMUNITY_RELAY"
+        channels:
+          - "REPLACE_WITH_CHANNEL_UUID"
+        home_channel: "REPLACE_WITH_HOME_CHANNEL_UUID"
+        poll_interval: 4
+        cli_path: ""
+        credentials_file: ""
+        allowed_users:
+          - "REPLACE_WITH_DAVE_NPUB_OR_HEX_PUBKEY"
+        require_mention: true
+        allow_all_users: false

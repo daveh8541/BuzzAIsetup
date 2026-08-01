@@ -1,0 +1,22 @@
+{
+  "name": "buzz-agent-team",
+  "version": "0.1.0",
+  "description": "Safely assess, plan, configure, and verify a small human-and-agent team in Block Buzz.",
+  "author": {
+    "name": "Dave Hornbeck"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Buzz Agent Team",
+    "shortDescription": "Bootstrap a safe, observable Buzz agent team.",
+    "longDescription": "Provides a guarded workflow, configuration templates, and local checks for connecting Codex and Hermes agents to Block Buzz without committing keys or over-privileging workers.",
+    "developerName": "Dave Hornbeck",
+    "category": "Productivity",
+    "capabilities": ["Plan", "Configure", "Verify"],
+    "defaultPrompt": [
+      "Assess this machine for a safe Buzz pilot.",
+      "Create a least-privilege Buzz agent-team plan.",
+      "Verify my Buzz and Hermes configuration without exposing secrets."
+    ]
+  }
+}
